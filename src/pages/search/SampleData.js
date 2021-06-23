@@ -1,0 +1,76 @@
+export const searchData = [
+    {
+      searchItemType: 'user',
+      userImageUrl: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+      userName: 'LESTRESORSDEMARGAUX',
+      instagram: 'https://www.instagram.com/',
+      youtube: 'https://www.youtube.com/',
+      facebook: 'https://www.facebook.com/',
+      tags: ['maman', '30-40ans', 'Lifestyle', 'Ecofriendly', 'Youngmom', 'Français(e)'],
+      followers: '16249',
+      engagements: '7,5%',
+      avgLikes: '777',
+      avgComments: '777',
+      erioScore: '95%'
+    },
+    {
+      searchItemType: 'user',
+      userImageUrl: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+      userName: 'LESTRESORSDEMARGAUX',
+      instagram: 'https://www.instagram.com/',
+      youtube: 'https://www.youtube.com/',
+      facebook: 'https://www.facebook.com/',
+      tags: ['maman', '30-40ans', 'Lifestyle', 'Ecofriendly', 'Youngmom', 'Français(e)'],
+      followers: '16249',
+      engagements: '7,5%',
+      avgLikes: '777',
+      avgComments: '777',
+      erioScore: '95%'
+    },
+    {
+      searchItemType: 'page',
+      pageName:'10G',
+      pageDesc:'Accès du profil + statistiques avancées pendant 1 mois',
+      tags: ['maman', '30-40ans', 'Lifestyle', 'Ecofriendly', 'Youngmom', 'Français(e)'],
+      followers: '48964',
+      engagements: '6,8%',
+      erioScore: '93%'
+    },
+    {
+      searchItemType: 'user',
+      userImageUrl: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+      userName: 'LESTRESORSDEMARGAUX',
+      instagram: 'https://www.instagram.com/',
+      youtube: 'https://www.youtube.com/',
+      facebook: 'https://www.facebook.com/',
+      tags: ['maman', '30-40ans', 'Lifestyle', 'Ecofriendly', 'Youngmom', 'Français(e)'],
+      followers: '16249',
+      engagements: '7,5%',
+      avgLikes: '777',
+      avgComments: '777',
+      erioScore: '95%'
+    },
+    {
+      searchItemType: 'user',
+      userImageUrl: 'https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+      userName: 'LESTRESORSDEMARGAUX',
+      instagram: 'https://www.instagram.com/',
+      youtube: 'https://www.youtube.com/',
+      facebook: 'https://www.facebook.com/',
+      tags: ['maman', '30-40ans', 'Lifestyle', 'Ecofriendly', 'Youngmom', 'Français(e)'],
+      followers: '16249',
+      engagements: '7,5%',
+      avgLikes: '777',
+      avgComments: '777',
+      erioScore: '95%'
+    },
+    {
+      searchItemType: 'page',
+      pageName:'10G',
+      pageDesc:'Accès du profil + statistiques avancées pendant 1 mois',
+      tags: ['maman', '30-40ans', 'Lifestyle', 'Ecofriendly', 'Youngmom', 'Français(e)'],
+      followers: '48964',
+      engagements: '6,8%',
+      erioScore: '93%'
+    },
+  ]

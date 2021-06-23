@@ -1,0 +1,106 @@
+  
+body {
+  background-color: $secondary !important;
+  margin: 0px;
+  padding: 0px;
+}
+h1,h2,h3,h4,h5{
+  margin-bottom: 0px;
+}
+
+a{
+  text-decoration: none;    
+}
+
+
+.ant-input {
+  box-shadow: 8px 8px 15px #00000029;
+  border-radius: 20px;
+  border: none;
+  background-color: $white;
+  height: 57px;
+  @include FontAxi(22,4,$black);
+  padding: 18px 23px;
+}
+
+.ant-input-password{
+  box-shadow: 8px 8px 15px #00000029;
+  border-radius: 20px;
+  padding: 0px 23px;
+  border: none;
+  .ant-input{
+    box-shadow: none;
+  border-radius: 0px;
+  border: none;
+  background-color: $white;
+  height: 57px;
+  @include FontAxi(22,4,$black);
+  
+  }
+}
+
+.ant-input-number{
+  box-shadow: none;
+  border-radius: 20px;
+  border: none;
+  background-color: $white;
+  height: 57px;
+  @include FontAxi(22,4,$black);
+  padding: 18px 23px;
+}
+
+.ant-select-selector{
+  border-radius: 5px !important;
+  border: 1px solid $primary !important;
+  background-color: $white !important;
+}
+
+.ant-select{
+  width: 100% !important;
+}
+
+.ant-form-item{
+  margin-bottom: 0px;
+}
+
+.ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+  display: none;
+}
+
+.ant-form-item-label {
+    width: 80px;
+    text-align: left;
+}
+
+
+.ant-spin-dot-item {
+  background-color: $primary;
+}
+
+
+// custom buttons 
+.c-button{
+  background-color: $black;
+  box-shadow: 8px 8px 15px #00000029;
+  border-radius: 20px;
+  border-color: $black;
+  > span {
+    @include FontAxi(22,3,$dark-gray);
+  }
+  
+  &.large {
+    height: 57px;
+  }
+
+  &:hover,&:focus{
+    color: $black;
+    border-color: $black;
+    background-color: $black;
+  }
+}
+
+// toast style fix
+.ant-message-custom-content {
+  display: flex;
+  align-items: center;
+}

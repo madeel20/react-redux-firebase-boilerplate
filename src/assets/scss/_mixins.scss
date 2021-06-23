@@ -1,0 +1,41 @@
+@mixin FontAxi($var1,
+$var2,
+$var3) {
+    font-size: $var1 + px;
+    color:  $var3;
+    @if ($var2==1) {
+        font-family: 'Acumin Pro Regular';
+    }
+    
+    @else if ($var2==2) {
+        font-family: 'Acumin Pro Semibold Regular';
+    }
+    @else if ($var2==3) {
+        font-family: 'Acumin Pro Bold';
+    }
+    @else if ($var2==4) {
+        font-family: 'Acumin Pro Light';
+    }
+}
+
+@mixin BorRadius($var) {
+  border-radius: $var+px;
+  -webkit-border-radius: $var+px;
+  -moz-border-radius: $var+px;
+  -ms-border-radius: $var+px;
+  -o-border-radius: $var+px;
+}
+
+@mixin Truncate($truncation-boundary: 'unset') {
+	max-width: $truncation-boundary;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+@mixin Media($var) {
+    @media only screen and (max-width: $var + px) {
+        @content;
+    }
+}

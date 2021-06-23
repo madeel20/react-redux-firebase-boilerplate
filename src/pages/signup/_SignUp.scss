@@ -1,0 +1,67 @@
+.signup-container{
+    min-height: calc(100vh - 129px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .inner-container{
+        width: 540px !important;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3 {
+            @include FontAxi(36,2,$white);
+            margin-bottom: 30px;
+        }
+        p {
+            @include FontAxi(20,1,$white);
+            margin-bottom: 25px;
+        }
+
+        a {
+            @include FontAxi(17,1,$primary);
+                
+        }
+
+        
+        .ant-form-item{
+            margin-bottom: 15px;
+
+            &.password,&.email{
+                margin-bottom: 30px;
+            }
+        }
+
+        .c-button {
+           margin-top: 30px;
+           margin-bottom: 40px;
+        }
+
+        .ant-form-item,.c-button {
+            width: 437px;
+        }
+
+        .more-pages{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            span {
+                @include FontAxi(17,1,$white);
+            }
+        }
+
+        .form-row{
+            display: flex;
+            width: 437px;
+            gap:15px;
+            .ant-form-item {
+                width: 100%;
+            }
+
+        }
+
+    }
+}
